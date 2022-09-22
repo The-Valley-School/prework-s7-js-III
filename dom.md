@@ -11,13 +11,13 @@ Los nodos más importantes que debemos conocer:
 
 ![DOM](S7-recursos/img/DOM.png)
 
-**BÚSQUEDA EN EL DOM**
+## BÚSQUEDA EN EL DOM
 
 A través de un API de Javascript podemos acceder y manipular los nodos del DOM. 
 
 Vamos a ver primero como poder recorrer el DOM, para ello, utilizaremos una serie de funciones que nos van a permitir hacerlo:
 
-**querySelector(selector)**
+### querySelector(selector)
 
 Devuelve el primer elemento del documento que coincida con las especificaciones de selectores.
 
@@ -53,7 +53,7 @@ element = document.querySelector('#tituloPrincipal');
 
 ```
 
-**getElementById(id)**
+### getElementById(id)
 
 Devuelve el primer elemento con el ID específico. Recordad que los IDs son únicos por lo tanto solo devolverá un elemento.
 
@@ -61,7 +61,7 @@ Devuelve el primer elemento con el ID específico. Recordad que los IDs son úni
 element = document.getElementById('tituloPrincipal'); 
 ```
 
-**getElementsByClassName(className)**
+### getElementsByClassName(className)
 
 Devuelve un array con todos los elementos que tengan esa className.
 
@@ -69,7 +69,7 @@ Devuelve un array con todos los elementos que tengan esa className.
 element = document.getsElementsByClassName('titulos-importantes'); 
 ```
 
-**querySelectorAll(selector)**
+### querySelectorAll(selector)
 
 Devuelve un array con todos los elementos que correspondan con el id, clase, etiqueta… introducidos. Es igual que el querySelector pero en vez de devolver el primer elemento que coincida devuelve un array con todos los que coincidan.
 
@@ -77,13 +77,13 @@ Devuelve un array con todos los elementos que correspondan con el id, clase, eti
 element = document.querySelectorAll('h1'); 
 ```
 
-**MANIPULANDO EL DOM**
+## MANIPULANDO EL DOM
 
 De igual manera que podemos acceder a un elemento del DOM, podemos crear, añadir propiedades y modificar esos elementos.
 
 Las funciones básicas que vamos a ver en este bloque son:
 
-**createElement(name)**
+### createElement(name)
 
 Nos permitirá crear un nombre con el elemento que le pasemos por parámetro.
 
@@ -91,7 +91,7 @@ Nos permitirá crear un nombre con el elemento que le pasemos por parámetro.
 let elementTitulo = document.createElement('h1');
 ```
 
-**appendChild(node)**
+### appendChild(node)
 
 Agrega un nuevo nodo al final de la lista de un elemento hijo de un elemento padre especificado.
 
@@ -115,11 +115,11 @@ elementoPadre.appendChild(elementoHijo);
 </body>
 ```
 
-**MANEJANDO EL DOM**
+## MANEJANDO EL DOM
 
 Una vez visto como  crear y añadir elementos al DOM, vamos a ver una serie de propiedades que podemos utilizar en nuestros desarrollos
 
-**element.textContent**
+### element.textContent
 
 Nos permite introducir texto en nuestras etiquetas
 
@@ -129,7 +129,7 @@ elementoHijo.textContent = 'Esto es un H1';
 
 Truki: Este atributo también nos permite borrar el contenido e hijos de un bloque. 
 
-**element.classList.add()**
+### element.classList.add()
 
 Nos permite introducir clases a una etiqueta. Podemos añadir más de una clase incluyendo más argumentos en la función:
 
@@ -137,7 +137,7 @@ Nos permite introducir clases a una etiqueta. Podemos añadir más de una clase 
 elementoHijo.classList.add('bold-text', 'red-text');
 ```
 
-**element.setAtributte()**
+### element.setAtributte()
 
 Que nos permite por ejemplo, incluir la url en una imagen:
 
@@ -145,7 +145,7 @@ Que nos permite por ejemplo, incluir la url en una imagen:
 element.setAttribute('src', url);
 ```
 
-**element.style**
+### element.style
 
 Nor permite cambiar el estilo:
 
