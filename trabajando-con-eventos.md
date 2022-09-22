@@ -1,4 +1,4 @@
-**EJERCICIO 1**
+## EJERCICIO 1
 
 ```js
 /*
@@ -27,7 +27,7 @@ function mostrarGIF (){
 </body>
 ```
 
-**ELERCICIO 2**
+## EJERCICIO 2
 
 ```js
 /*
@@ -64,7 +64,7 @@ function operacion (valor) {
 </body>
 ```
 
-**EJERCICO 3**
+## EJERCICIO 3
 
 ```js
 /*
