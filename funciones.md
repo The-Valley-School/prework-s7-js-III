@@ -8,7 +8,7 @@ Bienvenidos a la séptima sesión del prework. En esta sesión seguimos trabajan
 - El DOM y la formas de modificarlo
 - Eventos que nos permitirán mayor interacción en nuestra página.
 
-**¿QUÉ SON LAS FUNCIONES?**
+## ¿QUÉ SON LAS FUNCIONES?
 
 Podemos entender las funciones en javascript como un bloque de código que realiza un procedimiento. Un conjunto de instrucciones, líneas de código, que realizan una tarea concreta, como calcular un valor. Para que estos bloques sean considerados funciones, tienen que tener una entrada y devolver un salida que tenga una relación obvia.
 
@@ -20,7 +20,7 @@ console.log("esto es una función");
 
 La función console.log es una función que recibe un valor (”esto es una función”) y devuelve una acción en consonancia que es pintar por consola la frase que ha recibido.
 
-**DECLARACIÓN DE FUNCIONES**
+## DECLARACIÓN DE FUNCIONES
 
 Vamos a seguir entendiéndolo mejor con otro ejemplo y así aprendemos a declararlas.
 
