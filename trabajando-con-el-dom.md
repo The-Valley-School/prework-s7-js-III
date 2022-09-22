@@ -1,4 +1,4 @@
-**EJERCICIO 1**
+## EJERCICIO 1
 
 ```js
 /*
@@ -14,7 +14,7 @@ let elementoH2 = document.querySelector('h2');
 elementoH2.textContent = 'Hola Don José';
 ```
 
-**EJERCICIO 2**
+## EJERCICIO 2
 
 ```js
 /*
@@ -44,7 +44,7 @@ elementoContenedor.appendChild(elementoLista);
 
 ```
 
-**EJERCICIO 3**
+## EJERCICIO 3
 
 ```js
 /*
@@ -79,7 +79,7 @@ elementoContenedor.appendChild(elementoLista1);
 elementoContenedor.appendChild(elementoLista2);
 ```
 
-**EJERCICIO 4**
+## EJERCICIO 4
 
 ```js
 /*
