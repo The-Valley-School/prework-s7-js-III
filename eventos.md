@@ -10,7 +10,7 @@ A lo largo de todos nuestros ejercicios ejecutamos el código javascript según 
 
 En esta sesión vamos a trabajar con el elemento CLICK, a lo largo del máster iremos profundizando en diferentes elementos.
 
-**onclick**
+## onclick
 
 La forma más fácil de trabajar con el elemento CLICK es mediante el atributo **onclick** en HTML. 
 
@@ -29,7 +29,7 @@ function mensajeConsola () {
 }
 ```
 
-**eventListener**
+## eventListener
 
 Otra manera de tratar con eventos en JS sería mediante el uso de eventListeners, escuchadores de eventos. Lo que hacemos con ello es dejar preparada una función que salta cuando se produzca ese evento. Por ejemplo:
 
