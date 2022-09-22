@@ -1,4 +1,4 @@
-**EJERCICIO 1**
+## EJERCICIO 1
 
 ```js
 /*
@@ -15,7 +15,7 @@ console.log(precioFinal);
 
 ```
 
-**EJERCICIO 2**
+## EJERCICIO 2
 
 ```js
 /*
@@ -42,7 +42,7 @@ console.log(listaCompra);
 
 ```
 
-**EJERCICIO 3**
+## EJERCICIO 3
 
 ```js
 /*
